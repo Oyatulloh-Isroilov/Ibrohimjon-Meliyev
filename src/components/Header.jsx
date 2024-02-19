@@ -20,7 +20,7 @@ function Header() {
                 <div className="headerNumber">
                     <h2>Telefon raqamlarimiz</h2>
                     <a className='phoneNumber phoneNumber1' href="tel:+998900154229">+998 90 015 42 29</a>
-                    <a className='phoneNumber phoneNumber2' href="tel:+998935158480">+998 97 477 10 05</a>
+                    <a className='phoneNumber phoneNumber2' href="tel:+998974771005">+998 97 477 10 05</a>
                 </div>
             </div>
         </>
