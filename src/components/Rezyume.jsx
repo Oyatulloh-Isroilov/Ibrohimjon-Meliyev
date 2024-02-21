@@ -8,10 +8,10 @@ function Rezyume() {
                     <div className="admin">
                         <div className="imgName">
                             <img className='avatar' src="./SMM.jpg" alt="smm" />
-                            <h1>
-                                IBROHIMJON MELIYEV
+                            <div className="info1">
+                                <h1>IBROHIMJON MELIYEV</h1>
                                 <h2>SMM MARKETING</h2>
-                            </h1>
+                            </div>
                         </div>
                         <div className="adminRezyume">
                             <div className="adminMenu">
