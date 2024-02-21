@@ -20,17 +20,19 @@ function Rezyume() {
                                 <a className='adminGmail' href="gmail"><img className='infoLogo' src="gmail.svg" /> ibrohimmeliyev4229@gmail.com</a> <br />
                                 <b><img className='infoLogo' src="./location.png" /> Toshkent shahar Sergeli tumani 6 Masiv qoyliq</b>
                             </div>
-                            <div className="language">
-                                <h1><img className='infoLogo' src="./language.svg" /> Language</h1>
-                                <h2>Uzbekistan</h2>
-                                <h2>Russia 65%</h2>
-                            </div>
-                            <div className="Expertise">
-                                <h1><img className='infoLogo' src="./skills.webp" /> Expertise</h1>
-                                <h2>LOGO creater</h2>
-                                <h2>Content Maker</h2>
-                                <h2>Video Editing</h2>
-                                <h2>SMM Marketing</h2>
+                            <div className="lengEx">
+                                <div className="language">
+                                    <h1><img className='infoLogo' src="./language.svg" /> Language</h1>
+                                    <h2>Uzbekistan</h2>
+                                    <h2>Russia 65%</h2>
+                                </div>
+                                <div className="Expertise">
+                                    <h1><img className='infoLogo' src="./skills.png" /> Expertise</h1>
+                                    <h2>LOGO creater</h2>
+                                    <h2>Content Maker</h2>
+                                    <h2>Video Editing</h2>
+                                    <h2>SMM Marketing</h2>
+                                </div>
                             </div>
                         </div>
                     </div>
