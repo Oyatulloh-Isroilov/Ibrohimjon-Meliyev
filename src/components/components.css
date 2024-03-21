@@ -1,0 +1,516 @@
+.header {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  height: 190px;
+  gap: 50px;
+  padding: 20px 290px;
+  background: #edecec;
+  box-shadow: 3px 19px 42px -5px rgba(109, 109, 109, 1);
+  -webkit-box-shadow: 3px 19px 42px -5px rgba(109, 109, 109, 1);
+  -moz-box-shadow: 3px 19px 42px -5px rgba(109, 109, 109, 1);
+  color: #fff;
+  background: #000000;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerContact {
+  align-items: center;
+  text-align: center;
+}
+
+.headerNumber {
+  align-items: center;
+  text-align: center;
+}
+
+.headerPlace {
+  width: 350px;
+}
+
+.headerPlace h2 {
+  margin-bottom: 5px;
+  width: 300px;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.header p {
+  font-size: 18px;
+}
+
+.headerContact h2 {
+  margin-bottom: 15px;
+}
+
+.headerNumber a {
+  text-decoration: none;
+  display: block;
+}
+
+.headerLogo {
+  width: 84px;
+  height: 84px;
+  border-radius: 30px;
+}
+
+.headerContact .logo {
+  cursor: pointer;
+  width: 34px;
+  height: 34px;
+  border-radius: 30px;
+  border: 2px solid #fff;
+}
+
+.logos a {
+  margin-right: 10px;
+  align-items: center;
+  gap: 20px;
+}
+
+.phoneNumber {
+  color: rgb(233, 233, 233);
+  width: 400px;
+}
+
+.carousel {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 130px;
+  width: 1200px;
+  height: 500px;
+}
+
+.carouselImg {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  filter: none;
+  width: 100%;
+  height: 600px;
+}
+
+.onson {
+  margin-right: 10px;
+  color: #ff0000;
+}
+
+.admin {
+  background: #a8a8a8;
+  display: block;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgName {
+  display: flex;
+  width: 1000px;
+  padding: 20px;
+  background: #212123;
+}
+
+.imgName .info1 {
+  display: inline-block;
+  margin-left: 40px;
+  color: #ffeb4b;
+}
+
+.info1 h1 {
+  font-size: 50px;
+}
+
+.info1 h2 {
+  font-size: 50px;
+}
+
+.rasrochka {
+  color: #ff0000;
+}
+
+.avatar {
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+}
+
+.infoSmm {
+  margin-top: 60px;
+}
+
+.adminRezyume {
+  display: flex;
+  margin-top: 20px;
+  padding: 30px;
+  background: #000;
+  color: #fff;
+}
+
+.adminInfo {
+  text-align: center;
+  width: 400px;
+  height: auto;
+  font-size: 17px;
+}
+
+.adminMenu {
+  margin-right: 20px;
+}
+
+.adminMenu a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.lengEx {
+  display: flex;
+}
+
+.infoLogo {
+  text-align: center;
+  width: 45px;
+  height: 45px;
+}
+
+.About {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.language {
+  margin-right: 50px;
+}
+
+.language h1 {
+  font-size: 30px;
+}
+
+.language h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.Expertise h1 {
+  font-size: 30px;
+}
+
+.Expertise h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.SkillsSummarry {
+  display: flex;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.smm,
+.logoC,
+.videoE {
+  display: flex;
+}
+
+.skills h2 {
+  width: 440px;
+}
+
+.skills img {
+  width: 250px;
+}
+
+.skills p {
+  text-align: center;
+  width: 240px;
+  height: 50px;
+  transition: all 0.7s ease;
+  padding: 10px;
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+}
+
+.skills p:hover {
+  background: #000;
+  color: #fff;
+}
+
+.allSkills {
+}
+
+.onsonRassrochka {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.Info {
+  color: #fff;
+  background: transparent;
+}
+
+.banner3 {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  height: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.infoP {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 760px;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1884px) {
+  body {
+    .header {
+      padding: 20px 300px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1680px) {
+  body {
+    .header {
+      padding: 20px 300px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1456px) {
+  body {
+    .header {
+      padding: 20px 140px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1298px) {
+  body {
+    .header {
+      padding: 20px 80px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  body {
+    .header {
+      padding: 20px 100px;
+    }
+    .rezyume {
+      margin-left: 80px;
+    }
+    .imgName {
+      width: 945px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1216px) {
+  body {
+    .header {
+      padding: 20px 60px;
+    }
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  body {
+    .header {
+      padding: 20px 20px;
+    }
+    .rezyume {
+      margin-left: 80px;
+    }
+    .imgName {
+      width: 880px;
+    }
+    .banner3 {
+      margin-left: 100px;
+    }
+    .infoP {
+      display: flex;
+      margin-left: 160px;
+    }
+  }
+}
+
+@media only screen and (max-width: 854px) {
+  .header {
+    padding: 20px 20px;
+  }
+  .rezyume {
+    margin-left: 180px;
+  }
+  .imgName {
+    width: 675px;
+  }
+  .banner3 {
+    margin-left: 150px;
+  }
+  .infoP {
+    display: flex;
+    margin-left: 220px;
+  }
+  .adminRezyume {
+    display: block;
+  }
+  .Expertise h2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .language h2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .lengEx {
+    display: flex;
+  }
+  .allSkills h1 {
+    margin-top: 30px;
+  }
+  .onsonRassrochka {
+    display: flex;
+    margin-left: 250px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header {
+    padding: 20px 20px;
+  }
+  .rezyume {
+    margin-left: 300px;
+  }
+  .imgName {
+    width: 470px;
+  }
+  .banner3 {
+    width: 900px;
+    margin-left: 150px;
+  }
+  .infoP {
+    display: flex;
+    margin-left: 250px;
+  }
+  .adminRezyume {
+    display: block;
+  }
+  .language h1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .language h2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Expertise h1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .Expertise h2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Info {
+    display: flex;
+    margin-right: 240px;
+  }
+  .skills {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    padding: 20px 10px;
+  }
+  .rezyume {
+    margin-left: 100px;
+  }
+  .imgName {
+    width: 570px;
+    background: none;
+  }
+  .banner3 {
+    margin-left: none;
+    margin-right: none;
+  }
+  .infoP {
+    display: flex;
+    margin-left: 250px;
+  }
+  .adminRezyume {
+    display: block;
+  }
+  .info {
+    text-align: center;
+  }
+  .language h1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .language h2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Expertise h1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .Expertise h2 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .Info {
+    display: flex;
+    margin-right: 240px;
+  }
+  .skills {
+    width: 500px;
+  }
+  .admin {
+    background: none;
+  }
+}
